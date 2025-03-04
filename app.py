@@ -200,7 +200,7 @@ if selected == "Get Recommendation":
         st.write(skincare_recommendations(product))
     
     
-if selected == "Skin Care 101":
+if selected == "Skin Care":
     st.title(f"Take a Look at {selected}")
     st.write('---') 
 
