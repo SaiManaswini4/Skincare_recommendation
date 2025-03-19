@@ -298,7 +298,7 @@ if selected == "Skin Care 101":
         """) 
     
     image = Image.open('imagepic.jpg')
-    st.image(image, caption='Skin Care 101')
+    st.image(image, caption='Skin Care')
     
 
     
