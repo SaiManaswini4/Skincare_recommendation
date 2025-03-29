@@ -288,7 +288,7 @@ if selected == "Get Recommendation":
             st.write(f"- *Home Remedies:* {tips[issue][1]}")
             st.write(f"- *Diet:* {tips[issue][2]}")
 
-if selected == "Skin Care 101":
+if selected == "Skin Care":
     st.title(f"Take a Look at {selected}")
     st.write('---') 
 
