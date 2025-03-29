@@ -185,7 +185,7 @@ if selected == "Get Recommendation":
     skin_type = last.selectbox(label='Your Skin Type : ', options= ['Normal', 'Dry', 'Oily', 'Combination', 'Sensitive'] )
     category_st_pt = category_pt[category_pt[skin_type] == 1]
 
-    # pilih keluhan
+    # select complaint
     prob = st.multiselect(label='Skin Problems : ', options= ['Dull Skin', 'Pimples', 'Acne scars','Large Pores', 'Black Spots', 'Fine Lines and Wrinkles', 'Comedo', 'Uneven Skin Tone', 'Redness', 'Sagging Skin'] )
 
     # Choose notable_effects
