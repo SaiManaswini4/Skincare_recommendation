@@ -11,7 +11,7 @@ skincare = pd.read_csv("C:\Users\manas\Downloads\Skin-Care-Recommender-System-ma
 # Header
 st.set_page_config(page_title="Application Recommended Product Skin Care", page_icon=":blossom:", layout="wide",)
 
-# menampilkan halaman utama
+# displays the main page
 st.title("Application Recommended Product Skin Care :sparkles:")
 
 st.write('---') 
@@ -119,4 +119,4 @@ model_run = st.button('Find Other Product Recommendations!')
 if model_run:
     st.write('Following are recommendations for other similar products according to what you want')
     st.write(skincare_recommendations(product))
-    st.snow()
+    st.show()
