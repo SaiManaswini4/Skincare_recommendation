@@ -138,7 +138,7 @@ if selected == "Skin Care":
 
     st.write(
         """
-        ##### *The Skin Care Product Recommendation Application is an implementation of Machine Learning that can provide skin care product recommendations according to your skin type and problems*
+        ##### *The Skin Care Product Recommendation Application is an implementation of Machine Learning that can provide skin care product recommendations according to your skin type and problems.*
         """)
     
     #displaying a local video file
@@ -152,7 +152,7 @@ if selected == "Skin Care":
         """
         ##### You will get recommendations for skin care products from various cosmetic brands with a total of 1200+ products tailored to your skin's needs. 
         ##### There are 5 categories of skin care products with 5 different skin types, as well as the problems and benefits you want to get from the products. This recommendation application is just a system that provides recommendations according to the data you enter, not a scientific consultation.
-        ##### Please select the Get Recommendation page to start getting recommendations. Or select the Skin Care 101 page to see tips and tricks about skin care
+        ##### Please select the Get Recommendation page to start getting recommendations. Or select the Skin Care page to see tips and tricks about skin care.
         """)
     
     st.write(
@@ -168,7 +168,7 @@ if selected == "Get Recommendation":
     
     st.write(
         """
-        ##### *To get recommendations, please enter your skin type, complaints and desired benefits to get recommendations for the right skin care products*
+        ##### *To get recommendations, please enter your skin type, complaints and desired benefits to get recommendations for the right skin care products.*
         """) 
     
     st.write('---') 
@@ -288,13 +288,13 @@ if selected == "Get Recommendation":
             st.write(f"- *Home Remedies:* {tips[issue][1]}")
             st.write(f"- *Diet:* {tips[issue][2]}")
 
-if selected == "Skin Care 101":
-    st.title(f"Take a Look at {selected}")
+if selected == "Skin Care":
+    st.title(f"Take a Look at {selected}.")
     st.write('---') 
 
     st.write(
         """
-        ##### *Below are tips and tricks that you can follow to maximize the use of skin care products*
+        ##### *Below are tips and tricks that you can follow to maximize the use of skin care products.*
         """) 
     
     image = Image.open('imagepic.jpg')
@@ -308,19 +308,19 @@ if selected == "Skin Care 101":
         """)
     st.write(
         """
-        *- Use facial wash products that have been recommended or that are suitable for you*
+        *- Use facial wash products that have been recommended or that are suitable for you.*
         """)
     st.write(
         """
-        *- Wash your face a maximum of 2 times a day, namely in the morning and at night before bed. Washing your face too often will remove the skin's natural oils. For those of you who have a dry face, it doesn't matter if you just use plain water in the morning*
+        *- Wash your face a maximum of 2 times a day, namely in the morning and at night before bed. Washing your face too often will remove the skin's natural oils. For those of you who have a dry face, it doesn't matter if you just use plain water in the morning.*
         """)
     st.write(
         """
-        *- Don't scrub your face roughly because it can remove the skin's natural barrier*
+        *- Don't scrub your face roughly because it can remove the skin's natural barrier.*
         """)
     st.write(
         """
-        *- The best way to cleanse the skin is to use your fingertips for between 30-60 seconds in circular and massaging movements*
+        *- The best way to cleanse the skin is to use your fingertips for between 30-60 seconds in circular and massaging movements.*
         """)
     
     st.write(
@@ -329,19 +329,19 @@ if selected == "Skin Care 101":
         """)
     st.write(
         """
-        *- Use a toner that has been recommended or is suitable for you*
+        *- Use a toner that has been recommended or is suitable for you.*
         """)
     st.write(
         """
-        *- Pour toner onto cotton wool then gently rub onto face. For maximum results, use 2 layers of toner, the first using cotton and the last using your hands to make it more absorbed*
+        *- Pour toner onto cotton wool then gently rub onto face. For maximum results, use 2 layers of toner, the first using cotton and the last using your hands to make it more absorbed.*
         """)
     st.write(
         """
-        *- Use toner after washing your face*
+        *- Use toner after washing your face.*
         """)
     st.write(
         """
-        *- For those of you who have sensitive skin, as much as possible avoid skin care products that contain fragrance*
+        *- For those of you who have sensitive skin, as much as possible avoid skin care products that contain fragrance.*
         """)
     
     st.write(
@@ -350,23 +350,23 @@ if selected == "Skin Care 101":
         """)
     st.write(
         """
-        *- Use a serum that has been recommended or is suitable for you for maximum results*
+        *- Use a serum that has been recommended or is suitable for you for maximum results.*
         """)
     st.write(
         """
-        *- Serum is used after the face is completely clean so that the serum content is absorbed completely*
+        *- Serum is used after the face is completely clean so that the serum content is absorbed completely.*
         """)
     st.write(
         """
-        *- Use the serum in the morning and evening before bed*
+        *- Use the serum in the morning and evening before bed.*
         """)
     st.write(
         """
-        *- Choose a serum according to your needs, such as removing acne scars or removing black spots or anti-aging or other benefits*
+        *- Choose a serum according to your needs, such as removing acne scars or removing black spots or anti-aging or other benefits.*
         """)
     st.write(
         """
-        *- The way to use serum so that it absorbs more completely is to pour it into the palm of your hand, then gently pat it on your face and wait until it is absorbed*
+        *- The way to use serum so that it absorbs more completely is to pour it into the palm of your hand, then gently pat it on your face and wait until it is absorbed.*
         """)
     
     st.write(
@@ -375,11 +375,11 @@ if selected == "Skin Care 101":
         """)
     st.write(
         """
-        *- Use a moisturizer that has been recommended or is suitable for you for maximum results*
+        *- Use a moisturizer that has been recommended or is suitable for you for maximum results.*
         """)
     st.write(
         """
-        *- Moisturizer is a mandatory skin care product that you must have because it is able to lock in moisture and various nutrients from the serum that has been used*
+        *- Moisturizer is a mandatory skin care product that you must have because it is able to lock in moisture and various nutrients from the serum that has been used.*
         """)
     st.write(
         """
@@ -387,7 +387,7 @@ if selected == "Skin Care 101":
         """)
     st.write(
         """
-        *- Leave a time delay between using the serum and moisturizer for around 2-3 minutes to ensure the serum has been absorbed into the skin*
+        *- Leave a time delay between using the serum and moisturizer for around 2-3 minutes to ensure the serum has been absorbed into the skin.*
         """)
     
     st.write(
@@ -396,23 +396,23 @@ if selected == "Skin Care 101":
         """)
     st.write(
         """
-        *- Use sunscreen that has been recommended or is suitable for you for maximum results*
+        *- Use sunscreen that has been recommended or is suitable for you for maximum results.*
         """)
     st.write(
         """
-        *- Sunscreen is the main key to all skin care products because it protects the skin from the harmful effects of UVA and UVB rays, even blue light. All skin care products will be useless if there is nothing to protect the skin*
+        *- Sunscreen is the main key to all skin care products because it protects the skin from the harmful effects of UVA and UVB rays, even blue light. All skin care products will be useless if there is nothing to protect the skin.*
         """)
     st.write(
         """
-        *- Use sunscreen approximately the length of your index and middle fingers to maximize protection*
+        *- Use sunscreen approximately the length of your index and middle fingers to maximize protection.*
         """)
     st.write(
         """
-        *- Re-apply sunscreen every 2-3 hours or as much as needed*
+        *- Re-apply sunscreen every 2-3 hours or as much as needed.*
         """)
     st.write(
         """
-        *- Keep using sunscreen even at home because the sun's rays at 10 o'clock and above still penetrate through the windows and when the weather is cloudy*
+        *- Keep using sunscreen even at home because the sun's rays at 10 o'clock and above still penetrate through the windows and when the weather is cloudy.*
         """)
     
     st.write(
@@ -421,7 +421,7 @@ if selected == "Skin Care 101":
         """)
     st.write(
         """
-        *Frequently changing skin care products will cause facial skin to experience stress because it has to adapt to the product content. As a result, the benefits obtained are not 100%. Instead, use skin care products for months to see results*
+        *Frequently changing skin care products will cause facial skin to experience stress because it has to adapt to the product content. As a result, the benefits obtained are not 100%. Instead, use skin care products for months to see results.*
         """)
     
     st.write(
@@ -430,7 +430,7 @@ if selected == "Skin Care 101":
         """)
     st.write(
         """
-        *The key to facial care is consistency. Be diligent and diligent in using skin care products because the results you get are not instant*
+        *The key to facial care is consistency. Be diligent and diligent in using skin care products because the results you get are not instant.*
         """)
     st.write(
         """
