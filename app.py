@@ -185,7 +185,7 @@ if selected == "Get Recommendation":
     skin_type = last.selectbox(label='Your Skin Type : ', options= ['Normal', 'Dry', 'Oily', 'Combination', 'Sensitive'] )
     category_st_pt = category_pt[category_pt[skin_type] == 1]
 
-    # select complaint
+    # pilih keluhan
     prob = st.multiselect(label='Skin Problems : ', options= ['Dull Skin', 'Pimples', 'Acne scars','Large Pores', 'Black Spots', 'Fine Lines and Wrinkles', 'Comedo', 'Uneven Skin Tone', 'Redness', 'Sagging Skin'] )
 
     # Choose notable_effects
@@ -288,7 +288,7 @@ if selected == "Get Recommendation":
             st.write(f"- *Home Remedies:* {tips[issue][1]}")
             st.write(f"- *Diet:* {tips[issue][2]}")
 
-if selected == "Skin Care":
+if selected == "Skin Care 101":
     st.title(f"Take a Look at {selected}")
     st.write('---') 
 
@@ -298,7 +298,7 @@ if selected == "Skin Care":
         """) 
     
     image = Image.open('imagepic.jpg')
-    st.image(image, caption='Skin Care')
+    st.image(image, caption='Skin Care 101')
     
 
     
